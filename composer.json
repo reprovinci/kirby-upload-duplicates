@@ -1,0 +1,19 @@
+{
+  "name": "reprovinci/kirby-upload-duplicates",
+  "description": "Handle the upload of files with the same name",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "require": {
+    "getkirby/cms": "^3.0",
+    "getkirby/composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Matthijs Brouwer",
+      "email": "matthijs@reprovinci.nl"
+    }
+  ],
+  "extra": {
+    "installer-name": "upload-duplicates"
+  }
+}
