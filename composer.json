@@ -1,8 +1,9 @@
 {
   "name": "reprovinci/kirby-upload-duplicates",
-  "description": "Handle the upload of files with the same name",
+  "description": "Handle the upload of files with the same name. Prefix uploads with template name and suffix with iteration number.",
   "type": "kirby-plugin",
   "license": "MIT",
+  "version": "1.0.0",
   "require": {
     "getkirby/cms": "^3.0",
     "getkirby/composer-installer": "*"
