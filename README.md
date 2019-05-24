@@ -17,3 +17,6 @@ All should work out of the box. To test upload a file named test.jpg. Check that
 
 ## Disclaimer
 This plugin is provided "as is" with no guarantee. Use it at your own risk and always test it yourself before using it in a production environment. If you find any issues, please [create a new issue](https://github.com/reprovinci/kirby-upload-duplicates/issues/new).
+
+## Issues
+There is still one major issue: The file.create hook is used to rename uploaded files. This seems to be run after kirby checks if the file already exists and bails out if it does. So this plugin works in a clean setup without existing files but can't handle existing files in a project.
